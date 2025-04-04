@@ -357,7 +357,6 @@ main {
     box-shadow: 0 4px 10px var(--shadow-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    justify-content: center;
     display: flex; /* Tambahkan flexbox */
     flex-direction: column; /* Susun elemen secara vertikal */
 }
@@ -386,6 +385,7 @@ main {
     padding-top: 1rem; /* Beri jarak dari elemen di atasnya */
     border-top: 1px solid var(--border-color); /* Garis pemisah tipis */
     text-align: left; /* Rata kiri konten harga */
+    justify-content: center;
     flex-grow: 1; /* Biarkan price-list mengisi sisa ruang */
     display: flex; /* Gunakan flexbox di dalam price-list */
     flex-direction: column; /* Susun h4, ul, p secara vertikal */
@@ -396,6 +396,7 @@ main {
     color: var(--heading-color); /* Warna sub-judul */
     margin-bottom: 0.6rem; /* Jarak bawah */
     padding-bottom: 0.3rem;
+    justify-content: center;
     border-bottom: 1px dashed var(--border-color); /* Garis bawah putus-putus */
     flex-shrink: 0;
 }
@@ -417,6 +418,7 @@ main {
     font-size: 0.85em; /* Ukuran font lebih kecil */
     color: var(--icon-color); /* Warna abu-abu untuk catatan */
     line-height: 1.5; /* Jarak antar baris */
+    justify-content: center;
     margin-top: 0.8rem; /* Jarak dari list harga */
     padding-top: 0.8rem; /* Padding atas di dalam notes */
     border-top: 1px dashed var(--border-color); /* Garis putus-putus pemisah */
