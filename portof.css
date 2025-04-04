@@ -383,7 +383,7 @@ main {
     margin-top: auto; /* Dorong ke bawah agar sejajar jika item lain lebih tinggi */
     padding-top: 1rem; /* Beri jarak dari elemen di atasnya */
     border-top: 1px solid var(--border-color); /* Garis pemisah tipis */
-    text-align: left; /* Rata kiri konten harga */
+    text-align: center; /* Rata kiri konten harga */
     flex-grow: 1; /* Biarkan price-list mengisi sisa ruang */
     display: flex; /* Gunakan flexbox di dalam price-list */
     flex-direction: column; /* Susun h4, ul, p secara vertikal */
