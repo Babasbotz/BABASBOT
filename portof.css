@@ -335,6 +335,7 @@ main {
     transition: background-color 0.3s ease, transform 0.2s ease;
     display: inline-flex;
     align-items: center;
+    text-align: center;
     gap: 8px;
     margin-top: 1rem;
 }
@@ -383,7 +384,7 @@ main {
     margin-top: auto; /* Dorong ke bawah agar sejajar jika item lain lebih tinggi */
     padding-top: 1rem; /* Beri jarak dari elemen di atasnya */
     border-top: 1px solid var(--border-color); /* Garis pemisah tipis */
-    text-align: center; /* Rata kiri konten harga */
+    text-align: left; /* Rata kiri konten harga */
     flex-grow: 1; /* Biarkan price-list mengisi sisa ruang */
     display: flex; /* Gunakan flexbox di dalam price-list */
     flex-direction: column; /* Susun h4, ul, p secara vertikal */
