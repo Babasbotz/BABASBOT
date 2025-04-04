@@ -384,8 +384,7 @@ main {
     margin-top: auto; /* Dorong ke bawah agar sejajar jika item lain lebih tinggi */
     padding-top: 1rem; /* Beri jarak dari elemen di atasnya */
     border-top: 1px solid var(--border-color); /* Garis pemisah tipis */
-    text-align: left; /* Rata kiri konten harga */
-    justify-content: center;
+    text-align: center; /* Rata kiri konten harga */
     flex-grow: 1; /* Biarkan price-list mengisi sisa ruang */
     display: flex; /* Gunakan flexbox di dalam price-list */
     flex-direction: column; /* Susun h4, ul, p secara vertikal */
@@ -396,7 +395,7 @@ main {
     color: var(--heading-color); /* Warna sub-judul */
     margin-bottom: 0.6rem; /* Jarak bawah */
     padding-bottom: 0.3rem;
-    justify-content: center;
+    text-align: center; 
     border-bottom: 1px dashed var(--border-color); /* Garis bawah putus-putus */
     flex-shrink: 0;
 }
@@ -405,6 +404,7 @@ main {
     list-style: none; /* Hilangkan bullet points */
     padding: 0;
     margin: 0 0 0.8rem 0; /* Margin bawah */
+    text-align: center; 
     flex-grow: 1; /* Biarkan list mengisi ruang jika catatan tidak ada/pendek */
 }
 
@@ -412,15 +412,16 @@ main {
     padding: 4px 0; /* Jarak vertikal antar item */
     font-size: 0.95em; /* Ukuran font item list */
     color: var(--text-color); /* Warna teks list */
+    text-align: center; 
 }
 
 #projects .project-item p.notes {
     font-size: 0.85em; /* Ukuran font lebih kecil */
     color: var(--icon-color); /* Warna abu-abu untuk catatan */
     line-height: 1.5; /* Jarak antar baris */
-    justify-content: center;
     margin-top: 0.8rem; /* Jarak dari list harga */
     padding-top: 0.8rem; /* Padding atas di dalam notes */
+    text-align: center; 
     border-top: 1px dashed var(--border-color); /* Garis putus-putus pemisah */
     margin-bottom: 0; /* Hapus margin bawah default paragraf */
     flex-shrink: 0; /* Cegah notes menyusut */
