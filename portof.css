@@ -357,6 +357,7 @@ main {
     box-shadow: 0 4px 10px var(--shadow-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
+    justify-content: center;
     display: flex; /* Tambahkan flexbox */
     flex-direction: column; /* Susun elemen secara vertikal */
 }
