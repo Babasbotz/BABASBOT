@@ -358,6 +358,7 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
     display: flex; /* Tambahkan flexbox */
+    text-align: center; 
     flex-direction: column; /* Susun elemen secara vertikal */
 }
 #projects .project-item:hover {
@@ -371,6 +372,7 @@ main {
     border-radius: 6px;
     margin-bottom: 1.2rem;
     border: 1px solid var(--border-color);
+    text-align: center; 
     flex-shrink: 0; /* Cegah gambar menyusut */
 }
 #projects .project-item h3 {
